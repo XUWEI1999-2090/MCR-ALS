@@ -24,10 +24,12 @@
 
 ## 初步结果
 -  初步结果表明：ref#4（Mn2O3_mp-1043363）以及 ref#9（Mn5O7_mp-1046066）占比例大。
-![结果分析](png/mcrals_result.png)
--  进一步统计总浓度以及the difference能够发现，尽管收敛，但结果不甚理想
-![](png\difference.png)
--  adjust tolerance to achieve better results (judge from sum of concentrations, difference between weighted and actual)
--  结果表明
+![结果分析](png\practice2.png)
+-   目前结果也不甚合理，其他各种噪声（谱图）占比0.5左右。
+
+##  Adjust tolerance
+-   不影响结果
 ![](png\tolerance_0.1.png)
--  todo：目标函数"# MCR-ALS" 
+
+##  todo：目标函数
+##  todo：改变初猜
